@@ -1,0 +1,14 @@
+*{
+	margin:0;
+    margin: 0;
+}
+body 
+{height: 100%;
+width: 100%;
+}
+.ball{
+	height: 100px;
+width: 100px;
+	background-color: chartreuse;
+	border-radius: 100%;
+}
