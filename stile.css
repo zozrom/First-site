@@ -1,44 +1,35 @@
-*{
+@charset "utf-8";
+ *{
 	margin:0;
     margin: 0;
 }
+html{height: 100%;}
 body 
 {height: 100%;
 width: 100%;
 }
-#numberone{
-	 position: relative;
-	font-family:  sans-serif;
-	font-size: 35px;
-	font-style: italic;
-	font-weight: 700;
-	font-variant: small-caps;
-	color: blue;
-	text-align: center;
-	vertical-align: middle;
-	text-decoration:underline;
-	text-shadow: 5px 2px 4px grey;
-	z-index: 4;
-	
+.header{width:100%;
+	min-height: 300px
 }
-#text{ text-align: center;
-	z-index: 3;
-	position: relative
-	top: 40px;
-	 position: relative;
-	font-size: 45px;
-	 font-family: inherit;
-	border:  solid silver;
-	padding: 10px;
-	margin-left: 10px;
-	border-width: 8px;
+.head{height: 530px}
+#wrapper{
+	display: block;
+	min-height: 90%;
+	height: 10px;
+}
+img{
+	width: 100%;
+}
+#menu{ 
 	width: 400px;
 	height: 100px;
 	font-size: 1.7em;
 	font-family: "Times New Roman"
 }
-.im{position: relative;
-	z-index: 2;
-	top: -190px;
-	 width: 1588px;
-height: 400px;}
+.footer{
+	position: relative;
+	margin-top: 1650px;
+	width:100%;
+	min-height: 100px;
+}
+.foot{height: 580px}
